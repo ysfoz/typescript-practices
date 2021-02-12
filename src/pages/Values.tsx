@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function App() {
+function Values() {
 
 function greter(name:string){
   return `hello ${name}`
@@ -60,4 +60,4 @@ function printer():void{
   );
 }
 
-export default App;
+export default Values;
