@@ -32,18 +32,22 @@ let tupple : [number,string] = [7,'love']
 //js gibi yazmak ta mumkun
 let age = 20
 
-// enum - class mantiginda, bu yuzden buyuk harfle yazilir
+// ! ENUM
+ //class mantiginda, bu yuzden buyuk harfle yazilir
 
 enum Colors {red=1,black,purple} // 1 baslangic degeri vermek icin, digerleri otomak 2 ve 3 olacak
 enum Colors2 {red='rot',black='schwarz',purple='lila'}
 let color = Colors.red
 let color2 = Colors2.black
 
-//any gelecek veri tipinden emin degilsek kullanilir
+// ! ANY
+//gelecek veri tipinden emin degilsek kullanilir
 let notSure:any = 'Bonn'
 notSure = 3
 
-// void tipi ozellikle fonksiyonlarda kullanilir, geriye birsey dondurmek istemedigimizde kullanilir
+//! VOID 
+//tipi ozellikle fonksiyonlarda kullanilir, geriye birsey dondurmek istemedigimizde kullanilir
+
 let void_value :void = undefined // burada undefined yerine bir deger atasak , hata aliriz
 function printer():void{
   console.log('hello')

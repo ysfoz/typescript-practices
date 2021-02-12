@@ -10,6 +10,9 @@ const HomePage = () => {
             <Link to='/functions'>
             <button>Funnctions</button>
             </Link>
+            <Link to='/classes'>
+            <button>Classes</button>
+            </Link>
            
         </div>
     )
