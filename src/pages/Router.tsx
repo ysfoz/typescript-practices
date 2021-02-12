@@ -5,6 +5,7 @@ import HomePage from './HomePage'
 import Functions from './Functions'
 import Classes from './Classes'
 import AbstractClass from './AbstractClass'
+import Interface from './Interface'
 
 function AppRouter() {
     return(
@@ -16,6 +17,7 @@ function AppRouter() {
                 <Route path='/functions'  component ={Functions} exact/>
                 <Route path='/classes'  component ={Classes} exact/>
                 <Route path='/abstractclass'  component ={AbstractClass} exact/>
+                <Route path='/interface'  component ={Interface} exact/>
             </Switch>
         </Router>
     )

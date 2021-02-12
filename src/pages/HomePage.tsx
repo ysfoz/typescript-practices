@@ -16,6 +16,9 @@ const HomePage = () => {
             <Link to='/abstractClass'>
             <button>AbstractClass</button>
             </Link>
+            <Link to='/interface'>
+            <button>Interface</button>
+            </Link>
            
         </div>
     )
