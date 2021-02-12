@@ -6,6 +6,7 @@ import Functions from './Functions'
 import Classes from './Classes'
 import AbstractClass from './AbstractClass'
 import Interface from './Interface'
+import Loops from './Loops'
 
 function AppRouter() {
     return(
@@ -18,6 +19,7 @@ function AppRouter() {
                 <Route path='/classes'  component ={Classes} exact/>
                 <Route path='/abstractclass'  component ={AbstractClass} exact/>
                 <Route path='/interface'  component ={Interface} exact/>
+                <Route path='/loops'  component ={Loops} exact/>
             </Switch>
         </Router>
     )

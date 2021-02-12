@@ -19,6 +19,9 @@ const HomePage = () => {
             <Link to='/interface'>
             <button>Interface</button>
             </Link>
+            <Link to='/loops'>
+            <button>Loops</button>
+            </Link>
            
         </div>
     )
