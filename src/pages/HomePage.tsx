@@ -13,6 +13,9 @@ const HomePage = () => {
             <Link to='/classes'>
             <button>Classes</button>
             </Link>
+            <Link to='/abstractClass'>
+            <button>AbstractClass</button>
+            </Link>
            
         </div>
     )
