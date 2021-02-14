@@ -22,6 +22,9 @@ const HomePage = () => {
             <Link to='/loops'>
             <button>Loops</button>
             </Link>
+            <Link to='/generics'>
+            <button>Generics</button>
+            </Link>
            
         </div>
     )
